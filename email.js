@@ -4,7 +4,7 @@ const multer = require("multer");
 const path = require("path");
 
 const app = express();
-const port = 3000; // Choose the desired port
+const port = process.env.PORT || 3000; // Choose the desired port
 
 // Nodemailer transporter
 const transporter = nodemailer.createTransport({
