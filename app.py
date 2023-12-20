@@ -8,7 +8,7 @@ import requests
 
 app = Flask(__name__)
 
-EXPRESS_SERVER_URL = 'http://localhost:3000'  # Replace with your Express server URL
+EXPRESS_SERVER_URL = 'https://email-express-server.onrender.com'  # Replace with your Express server URL
 
 @app.route('/')
 def index():
